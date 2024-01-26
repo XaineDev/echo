@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.xaine.echo.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "echo.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "TitleScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
